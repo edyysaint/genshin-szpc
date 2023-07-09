@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Genshin Impact - Szpc</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.svg" alt="Logo Genshin" />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="albedo"
+            data-name="Albedo"
+            data-description="Chefe Alquimista e capitão da Equipe de Investigação dos Cavaleiros de Favonius, o principal grupo de defesa da região de Mondstadt. Um jovem misterioso, mas de grande conhecimento e que não se comunica tão facilmente sobre a natureza das coisas."
+          >
+            <img src="./src/imagens/card-albedo.jpg" alt="Personagem Albedo" />
+          </li>
+          <li
+            class="personagem"
+            id="amber"
+            data-name="Amber"
+            data-description="Amber é uma Aventureira dos Cavaleiros de Favonius. Na era em que os Aventureiros estão se tornando obsoletos, ela continuou com suas responsabilidades. Com a hospitalidade de Amber, um recém-chegado apenas precisa de alguns dias para se sentir em casa."
+          >
+            <img src="./src/imagens/card-amber.jpg" alt="Personagem Amber" />
+          </li>
+
+          <li
+            class="personagem"
+            id="diluc"
+            data-name="Diluc"
+            data-description="Nascido na influente Família Ragnvindr, Diluc é o atual proprietário do Adega do Alvorecer e um nobre de alta estima na sociedade de Mondstadt."
+          >
+            <img src="./src/imagens/card-diluc.jpg" alt="Personagem Diluc" />
+          </li>
+
+          <li
+            class="personagem"
+            id="hutao"
+            data-name="Hutao"
+            data-description="Hu Tao é a 77ª diretora da Casa Funerária de Wangsheng, que fica na região de Liyue. Ela é uma figura misteriosa que guarda a fronteira entre a vida e a morte."
+          >
+            <img src="./src/imagens/card-hutao.jpg" alt="Personagem Hutao" />
+          </li>
+
+          <li
+            class="personagem"
+            id="kazuha"
+            data-name="Kazuha"
+            data-description="Originário de Inazuma, Kaedehara Kazuha é um samurai errante que fugiu da sua terra natal e foi acolhido pela Frota Crux, comandada pela pirata Beidou."
+          >
+            <img src="./src/imagens/card-kazuha.jpg" alt="Personagem Kazuha" />
+          </li>
+
+          <li
+            class="personagem"
+            id="shogun"
+            data-name="Shogun"
+            data-description="O verdadeiro nome da Shogun Raiden é Raiden Ei. Os anos mais felizes de sua vida já haviam passado, e aqueles que ela considerava amigos se tornaram seus inimigos."
+          >
+            <img src="./src/imagens/card-shogun.jpg" alt="Personagem Shogun" />
+          </li>
+
+          <li
+            class="personagem"
+            id="xiao"
+            data-name="Xiao"
+            data-description="Xiao é um adepto e o único membro remanescente dos Cinco Yakshas despachados por Morax para subjugar os espíritos demoníacos que atormentavam Liyue."
+          >
+            <img src="./src/imagens/card-xiao.jpg" alt="Personagem Xiao" />
+          </li>
+
+          <li
+            class="personagem"
+            id="zhongli"
+            data-name="Zhongli"
+            data-description="
+            Zhongli pode ser considerada uma pessoa de mente aberta com base em como ele convidou Xinyan para fazer seu show de rock na época em que o rock não era muito conhecido e amplamente aceito em Liyue."
+          >
+            <img
+              src="./src/imagens/card-zhongli.jpg"
+              alt="Personagem Zhongli"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-albedo.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Albedo</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Chefe Alquimista e capitão da Equipe de Investigação dos Cavaleiros
+            de Favonius, o principal grupo de defesa da região de Mondstadt. Um
+            jovem misterioso, mas de grande conhecimento e que não se comunica
+            tão facilmente sobre a natureza das coisas.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
